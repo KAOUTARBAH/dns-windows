@@ -8,7 +8,7 @@
 - Suivre les étapes pour installer le rôle DNS.
 - Une fois l’installation terminée, cliquer sur **Fermer**.
 
-![serveur dns](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/server-dns)
+![serveur dns](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/server-dns.png)
 
 ## 2. Configurer le Serveur DNS pour la Zone `rank.fr`
 ### Ouvrir la console DNS :
