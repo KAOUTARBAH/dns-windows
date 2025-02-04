@@ -8,6 +8,8 @@
 - Suivre les étapes pour installer le rôle DNS.
 - Une fois l’installation terminée, cliquer sur **Fermer**.
 
+![serveur dns](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/server-dns)
+
 ## 2. Configurer le Serveur DNS pour la Zone `rank.fr`
 ### Ouvrir la console DNS :
 1. Accéder au menu **Démarrer**.
@@ -21,12 +23,17 @@
 5. Laisser les paramètres par défaut pour les fichiers de zone et cliquer sur **Suivant**.
 6. Terminer la création de la zone.
 
+![chemin adreese ip](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/chemin-add-ip.png)
+
 ## 3. Ajouter les Enregistrements A
 ### Ajouter un enregistrement A pour le serveur :
 1. Clic droit sur la zone `rank.fr`, puis **Nouvel enregistrement d'hôte (A ou AAAA)**.
 2. Dans **Nom d'hôte**, entrer un nom comme `Server-DHCP`.
 3. Dans **Adresse IP**, entrer l’adresse IP statique du serveur DNS.
+![chemin adreese ip](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/chemin-add-ip.png)
 4. Cliquer sur **Ajouter un hôte**.
+
+
 
 ### Ajouter un enregistrement A pour une machine avec réservation IP fixe :
 1. Clic droit sur la zone `rank.fr`, puis **Nouvel enregistrement d'hôte (A ou AAAA)**.
