@@ -54,5 +54,32 @@
   ```bash
   nslookup server-dhcp.rank.fr
 
+-Tester également le CNAME :
+  ```bash
+  nslookup dns.rank.fr
+
+![test-clt](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/test-dns-server.png)
+
+### Test 2 : Résolution de nom depuis la machine cliente
+- Ouvrir une fenêtre **Invite de commandes** sur le serveur DNS.
+- Utiliser la commande suivante pour tester la résolution de nom A :
+  ```bash
+  nslookup server-dhcp.rank.fr
+
+- Tester également le CNAME :
+  ```bash
+  nslookup dns.rank.fr
+
+![test-clt](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/test-dns-clt.png)
+
+### Test 3: Résolution inverse (facultatif)
+- Si vous avez configuré la zone inverse, tester la résolution inverse sur le serveur ou la machine cliente :
+  ```bash
+  nslookup <adresse_IP_du_serveur>
+
+![test-add](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/test-ip-clt.png)
+
+
+
 
 
