@@ -40,9 +40,12 @@
 ## 4. Ajouter un Enregistrement CNAME
 ### Ajouter un enregistrement CNAME pour le serveur :
 1. Clic droit sur la zone `rank.fr`, puis **Nouvel enregistrement d’alias (CNAME)**.
+![CNAME](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/CNAME.png)
 2. Dans **Nom d'hôte**, entrer `dns`.
 3. Dans **Nom canonique (FQDN)**, entrer le nom complet du serveur DNS (par exemple `Server-DHCP.rank.fr`).
+![CNAME-conf](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/CNAME-conf.png)
 4. Cliquer sur **OK** pour ajouter l’enregistrement CNAME.
+![CNAME-ok](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/CNAME-ok.png)
 
 ## 5. Tests de Fonctionnement
 ### Test 1 : Résolution de nom depuis le serveur DNS
