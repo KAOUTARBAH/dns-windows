@@ -23,7 +23,7 @@
 5. Laisser les paramètres par défaut pour les fichiers de zone et cliquer sur **Suivant**.
 6. Terminer la création de la zone.
 
-![chemin adreese ip](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/chemin-add-ip.png)
+![chemin adreese ip](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/zone-rank.png)
 
 ## 3. Ajouter les Enregistrements A
 ### Ajouter un enregistrement A pour le serveur :
