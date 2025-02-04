@@ -51,10 +51,12 @@
 ### Test 1 : Résolution de nom depuis le serveur DNS
 - Ouvrir une fenêtre **Invite de commandes** sur le serveur DNS.
 - Utiliser la commande suivante pour tester la résolution de nom A :
-    nslookup server-dhcp.rank.fr
+  ```bash
+  nslookup server-dhcp.rank.fr
 
 - Tester également le CNAME :
-***nslookup dns.rank.fr***
+  ```bash
+   nslookup dns.rank.fr
 
 ![test-clt](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/test-dns-server.png)
 
