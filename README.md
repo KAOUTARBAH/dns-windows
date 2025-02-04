@@ -89,7 +89,6 @@
 - Valider pour créer la zone.
 ![Zone Inverse](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/ZoneInverse.png)
 
-
 #### 2. Ajouter un enregistrement PTR pour le serveur
 - Dans la zone inverse, ajouter un enregistrement PTR pour l'adresse IP du serveur.
 - Ce PTR doit pointer vers le nom suivant : `server-dhcp.rank.fr`.
