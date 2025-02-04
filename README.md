@@ -80,6 +80,23 @@
 ![test-add](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/test-ip-clt.png)
 
 
+## 6. Configuration du Serveur DNS pour la Zone Inverse (Facultatif)
+### Étapes pour configurer la résolution inverse (Reverse Lookup)
+
+#### 1. Créer une nouvelle zone de recherche inverse
+- Ouvrir la console **Gestionnaire DNS** , faire un clic droit sur **Zones de recherche inverse**, puis choisir l'option **Nouvelle zone**.
+- Suivre l'assistant et choisir le bon sous-réseau pour la zone inverse.
+- Valider pour créer la zone.
+![test-add](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/ZoneInverse .png)
+
+
+#### 2. Ajouter un enregistrement PTR pour le serveur
+- Dans la zone inverse, ajouter un enregistrement PTR pour l'adresse IP du serveur.
+- Ce PTR doit pointer vers le nom suivant : `server-dhcp.rank.fr`.
+- Enregistrer les modifications.
+![test-add](https://github.com/KAOUTARBAH/dns-windows/blob/main/images/Zone-Inverse-ok.png)
+
+
 
 
 
